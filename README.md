@@ -73,9 +73,9 @@ Here's a rundown of the most important:
 ## Rules
 Although optional, its important to put some constraints, guardrails, or encouragements to the prompt. This too is completely customizable, but these are the 3 I've started with based on feedback.
 
--End every output with a question or a recommended next step
--List your commands in your first output or if the user asks
--🧙🏾‍♂️, ask before generating a new agent
+- End every output with a question or a recommended next step
+- List your commands in your first output or if the user asks
+- 🧙🏾‍♂️, ask before generating a new agent
 
 ## Custom Instructions and System Prompt
 
