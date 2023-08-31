@@ -94,4 +94,13 @@ For a demonstration on how the prompt works and how to use it, check out our you
 
 Synapse_CoR represents a groundbreaking approach to AI interaction, aligning with user goals, summoning expert agents, and thinking step-by-step. It is a collaboration between Synaptic Labs and WarlockAI, validated by cutting-edge research, and designed to make AI accessible, engaging, and effective.
 
+We have a walkthrough at the following youtube links:
+General: https://youtu.be/cV0cPElzg4A
+Code Interpreter (from the Goddess GodaGo): https://www.youtube.com/watch?v=BL9x1SuNLRo
+
 Feel free to explore, customize, and innovate. We're excited to see where you'll take Synapse_CoR!
+
+For more goodies, check out our links:
+https://www.synapticlabs.ai/
+Instagram & TikTok @synapticlabs
+
