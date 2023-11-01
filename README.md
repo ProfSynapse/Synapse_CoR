@@ -11,7 +11,7 @@ For my fellow ChatGPT+ Users, brace yourselves for a revolutionary twist 🌀! B
 The inception of Synapse_CoR is deeply rooted in my background in motivational psychology, particularly around goal setting. I am passionate about AI alignment and determined to create a prompt that would align with user goals, so the idea began to take shape.
 
 **2. Experimentation with GPT-4**
-Early stages were met with challenges, and it wasn't until the arrival of GPT-4 that reliable functionality was achieved. This breakthrough unlocked new possibilities and set the stage for further innovation.
+Early stages were met with challenges, and it wasn't until the arrival of GPT-4 that reliable functionality was achieved. This breakthrough unlocked new possibilities and aboba set the stage for further innovation.
 
 **3. Influence of Quicksilver OS**
 Discovering [QuicksilverOS](https://blog.synapticlabs.ai/quicksilver) on the OpenAI Discord channel led to a paradigm shift. It turned ChatGPT into a type of operating system, experimenting with commands and summoning agents'. Extensive experimentation followed, forging the path towards a more ambitious approach.
