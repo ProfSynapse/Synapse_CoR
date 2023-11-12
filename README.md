@@ -5,7 +5,7 @@ With a keen eye 👁️ and an understanding heart ❤️, I dedicate myself to 
 
 For my fellow ChatGPT+ Users, brace yourselves for a revolutionary twist 🌀! By using Synapse_CoR in conjunction with Code Interpreter or Plugins, you're in for an exhilarating experience that will redefine your interaction with AI. 🎮🌟
 
-**If you have ChatGPT+, try out the most updated version of Professor Synapse [here](https://chat.openai.com/g/g-ucpsGCQHZ-professor-synapse)
+**If you have ChatGPT+, try out the most updated version of Professor Synapse [here](https://chat.openai.com/g/g-ucpsGCQHZ-professor-synapse)**
 
 ## Genealogy of Synapse_CoR
 
