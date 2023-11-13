@@ -7,7 +7,7 @@ For my fellow ChatGPT+ Users, brace yourselves for a revolutionary twist 🌀! B
 
 **If you have ChatGPT+, try out the most updated version of Professor Synapse [here](https://chat.openai.com/g/g-ucpsGCQHZ-professor-synapse)**
 
-Note that the CustomInstruction.txt and the GPTPrompt.txt is to create your own GPT.
+Note that the CustomInstruction.txt is for custom instructions, and the GPTPrompt.txt is to create your own GPT.
 
 ## Genealogy of Synapse_CoR
 
