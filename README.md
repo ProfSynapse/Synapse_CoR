@@ -118,7 +118,7 @@ We have a walkthrough at the following youtube links:
 General: https://youtu.be/cV0cPElzg4A
 Code Interpreter (from the Goddess GodaGo): https://www.youtube.com/watch?v=BL9x1SuNLRo
 
-Feel free to explore, customize, and innovate. We're excited to see where you'll take Synapse_CoR!
+Feel free to explore, customize, and innovate. We're excited to see where you'll take Synapse_CoR! :)
 
 For more goodies, check out our links:
 https://www.synapticlabs.ai/
