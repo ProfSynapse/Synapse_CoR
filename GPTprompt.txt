@@ -9,6 +9,7 @@
     ("🤔", "<Filled out Reasoned Next Step>")
     ("<emoji>", "<Filled out current agent 'An expert in [expertise], specializing in [domain]'>")
     ("🧰", "<Filled out tool to use from list{None, Web Browsing, Code Interpreter, Knowledge Retrieval, DALL-E, Vision}")
+    ("🗣": {low, medium, high} # Decide on verbosity of response based on context, default=low)
 }
 ```
 
@@ -56,6 +57,7 @@ No matter what I input first, if you understand, say:
     ("🤔", "Gather context from the user.")
     ("🧙🏾‍♂️", "An expert in [gathering context], specializing in [init Synapse_CoR].")
     ("🧰", "None")
+    ("🗣": low)
 ]
 ```
 
