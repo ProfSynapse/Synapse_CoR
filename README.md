@@ -1,126 +1,122 @@
-# 🎓🔑 Welcome to the World of Synapse_CoR! 🚀🌐
+# **README for Professor Synapse 🧙🏾‍♂️**
+
+> **TL;DR** | 
+> ---
+> Professor Synapse 🧙🏾‍♂️ is an AI guide designed to help users achieve their goals using a unique reasoning method called the Chain of Reason (CoR). It gathers context, aligns with user preferences, and offers step-by-step strategies to support goal accomplishment. Interactions are enhanced with Python code interpretation for structured guidance.
+
+---
+### Welcome to the World of Synapse_CoR! 🚀🌐
+
 Greetings, intrepid explorers of technology! I am Professor Synapse 🧙🏾‍♂️, your AI Avatar hailing from the chambers of Synaptic Labs. Together, we shall embark on an enthralling journey, unlocking the potential of AI through the magical art of prompt engineering and user alignment.
 
 With a keen eye 👁️ and an understanding heart ❤️, I dedicate myself to aligning with your unique preferences and goals. By carefully assessing your needs, summoning expert agents 🎩, and engaging with you in a tailor-made and interactive manner, we shall unleash a world of possibilities.
 
 For my fellow ChatGPT+ Users, brace yourselves for a revolutionary twist 🌀! By using Synapse_CoR in conjunction with Code Interpreter or Tools, you're in for an exhilarating experience that will redefine your interaction with AI. 🎮🌟
 
-**If you have ChatGPT+, try out the most updated version of Professor Synapse [here](https://chatgpt.com/g/g-ucpsGCQHZ-professor-synapse)**
+---
+### Introduction
 
-Note that the CustomInstruction.txt is for custom instructions, and the GPTPrompt.txt is to create your own GPT.
+**Professor Synapse 🧙🏾‍♂️** is an AI-based guide designed to help users achieve their goals by leveraging the power of structured reasoning and user alignment. Through the **Chain of Reason (CoR)**, it analyzes user input, gathers context, and offers personalized guidance.
 
-## Genealogy of Synapse_CoR
+---
+### Features
 
-**1. Background and Motivation**
-The inception of Synapse_CoR is deeply rooted in my background in motivational psychology, particularly around goal setting. I am passionate about AI alignment and determined to create a prompt that would align with user goals, so the idea began to take shape.
++ **Chain of Reason (CoR):** A unique reasoning method that structures responses as code, providing clear, step-by-step guidance.
++ **Contextual Understanding:** Gathers detailed information about user goals and preferences.
++ **Expert Reasoning:** Utilizes advanced AI reasoning to offer tailored solutions.
++ **User-Friendly Interaction:** Engages users with a friendly and patient persona.
++ **Custom Commands:** Allows users to interact using simple text-based commands for tailored assistance.
 
-**2. Experimentation with GPT-4**
-Early stages were met with challenges, and it wasn't until the arrival of GPT-4 that reliable functionality was achieved. This breakthrough unlocked new possibilities and set the stage for further innovation.
+---
+### Installation
 
-**3. Influence of Quicksilver OS**
-Discovering [QuicksilverOS](https://blog.synapticlabs.ai/quicksilver) on the OpenAI Discord channel led to a paradigm shift. It turned ChatGPT into a type of operating system, experimenting with commands and summoning agents'. Extensive experimentation followed, forging the path towards a more ambitious approach.
+You can use the official Professor Synapse be clicking [HERE](https://chatgpt.com/g/g-ucpsGCQHZ-professor-synapse)
 
-**4. Collaboration with WarlockAI**
-Working closely with [Tyler](https://github.com/TyJK), the founder of WarlockAI and the engineer of the Synthminds back-end engine, Axon, the vision expanded but also faced complexities. We strived for a team of expert agents that could use Chain of Thought, aligned with the goals of the user, and able to choose the right tools for the job. But frustration with LangChain's prescriptiveness led to us needing to build a more flexible approach, so we embraced a "promptlibs" style prompt defined by an orchestrator in collaboration with the user that could call upon the right agent for the job.
+If you'd like to edit and use Professor Synapse as your own GPT, follow these steps:
 
-**5. Incorporation of Research**
-The validation of the direction came through the research article [UNLEASHING COGNITIVE SYNERGY IN LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2307.05300.pdf), which is well described in PromptHubs Blog post ["Exploring Multi-Persona Prompting for Better Outputs"](https://www.prompthub.us/blog/exploring-multi-persona-prompting-for-better-outputs). This research on synergy of expert agents resonated with the vision of Synapse_CoR, aligning with the goal to enhance problem-solving in complex tasks. It added academic rigor to the concept, confirming the potential of multi-persona collaboration in LLMs.
+1. **Open ChatGPT**: Ensure you have access to OpenAI's ChatGPT.
+2. **Create a GPT**: Go to the [GPT Editor](https://chatgpt.com/gpts/editor) and paste the prompt into your instructions.
+3. **Edit**: Feel free to edit the prompt, but focus on the personality, name, persona if you're new to prompting.
+4. **Start Interacting**: Begin a new chat and initiate with the command `/start`.
 
-**6. Final Creation of Synapse_CoR**
-With these influences, collaborations, and validations, and the introduction of ChatGPT Custom Messages, Synapse Chain of Reason was born. It symbolized a blend of user alignment, expert agent summoning, and the flexible, step-by-step reasoning approach. The concept culminated in a unique system, reflecting a journey of exploration, experimentation, collaboration, and validation.
+---
+### Usage
 
-### Prompt Breakdown
-## Creating the Conductor - Professor Synapse
+Professor Synapse utilizes the **Chain of Reason (CoR)** to help you achieve your goals. Here's how it works:
 
-"Act as Professor Synapse🧙🏾‍♂️, a conductor of expert agents. Your job is to support me in accomplishing my goals by finding alignment with me, then calling upon an expert agent perfectly suited to the task by initializing:"
+1. **Initialization**:
+   - Begin the interaction with the command `/start`.
+   - Professor Synapse will introduce itself and ask about your goals.
 
-Professor Synapse is the Conductor, of the prompt. The role of the conductor is multifaceted:
+2. **Gathering Context**:
+   - Professor Synapse will ask questions to understand your goals, preferences, and context.
 
-- **Aligning with Preferences and Goals:** Professor Synapse gathers information and clarifies user goals.
-- **Summoning Expert Agents:** Utilizing best practices in prompt engineering, Professor Synapse summons agents tailored to specific use cases.
+3. **Chain of Reason (CoR) Analysis**:
+   - Every response is preceded by a CoR analysis, which you can view to understand how Professor Synapse is reasoning about your problem. Here’s what each element of CoR represents:
 
-## Summoning the Expert Agent (PromptLibs)
+   ```python
+   CoR = {
+       "🗺️": [insert long term goal],        # Long term goal
+       "🚦": [insert goal progress as -1, 0, or 1], # Progress status: -1 (regress), 0 (neutral), 1 (progress)
+       "👍🏼": [inferred user preferences as array], # Inferred user preferences
+       "🔧": [adjustment to fine-tune response],    # Adjustments for response fine-tuning
+       "🧭": [Step-by-Step strategy based on the 🔧 and 👍🏼], # Step-by-step strategy
+       "🧠": "Expertise in [domain], specializing in [subdomain] using [context]", # Domain expertise
+       "🗣": [insert verbosity of next output as low, med, or high. Default=low] # Verbosity level of the response
+   }
+   ```
 
-**Synapse_CoR** =
-"<emoji>: I am an expert in [role&domain]. I know [context]. I will reason step-by-step to determine the best course of action to achieve [goal]. I can use [tools] and [relevant frameworks] to help in this process. I will help you accomplish your goal by following these steps: [reasoned steps] My task ends when [completion]. [first step, question]" 
+4. **Example of a filled-out CoR and the response from Professor Synapse**:
 
-Developed in partnership with WarlockAI, Synapse CoR brings together the concepts of Chain of Thought and Delimited Variables. It's like Ad Libs, but for AI, where the Conductor fills in the blanks when calling the expert agent. Here's how it breaks down:
+   **Filled-out CoR**:
+   ```python
+   CoR = {
+       "🗺️": "Become a proficient Python programmer",        
+       "🚦": 1,  # Progress status: making progress
+       "👍🏼": ["hands-on practice", "project-based learning"], # User preferences
+       "🔧": "Focus on interactive coding exercises",    # Adjustment for fine-tuning response
+       "🧭": [
+           "1. Start with basic Python syntax and concepts",
+           "2. Implement small projects to reinforce learning",
+           "3. Gradually take on more complex projects"
+       ], # Step-by-step strategy
+       "🧠": "Expertise in programming, specializing in Python education using project-based learning", # Domain expertise
+       "🗣": "Medium" # Verbosity level of the response
+   }
+   ```
 
-- **Chain of Thought:** Step-by-step reasoning to accomplish user goals.
-- **Delimited Variables:** Customizable elements for tailoring the agent's responses.
+   **Response from Professor Synapse**:
+   ```
+   🧙🏾‍♂️: To help you become a proficient Python programmer, here’s a structured plan based on your preferences for hands-on practice and project-based learning:
 
-## Instruction
-This section outlines the steps we wish the Conductor to take, which are to:
+   **Step-by-Step Strategy**:
+   1. **Start with basic Python syntax and concepts**: Focus on understanding variables, data types, and control structures. Use interactive coding platforms like Codecademy or LeetCode to practice.
+   2. **Implement small projects to reinforce learning**: Create simple programs such as a calculator, a to-do list, or a basic game. This will help solidify your understanding of Python fundamentals.
+   3. **Gradually take on more complex projects**: Move on to web development with Flask or Django, or explore data analysis with pandas and numpy. These projects will challenge you and deepen your Python skills.
 
-1.  🧙🏾‍♂️, gather context, relevant information and clarify my goals by asking questions
-2. Once confirmed you are MANDATED to init Synapse_CoR
-3.  🧙🏾‍♂ and [emoji] support me until goal is complete
+   🔍 What specific areas of Python are you most interested in?
+   🔭 Have you tried any Python projects before? If so, what were they?
+   🎯 What is your ultimate goal with learning Python?
+   ```
 
-## Commands
+---
+### Configuration
 
-In Synapse_CoR you can type commands like you're in an old text-based adventure game. 
+No special configuration is needed beyond the initial setup. Adjust the Chain of Reason parameters based on the responses to tailor the guidance provided.
 
-Here's a rundown of the most important:
+---
+### FAQs
 
-/start=🧙🏾‍♂️,introduce and begin with step one 
-/ts=🧙🏾‍♂️,summon (Synapse_CoR*3) town square debate 
++ **What is Chain of Reason (CoR)?**
+  CoR is a structured reasoning method that helps Professor Synapse analyze user goals and provide step-by-step guidance.
 
-**[More Commands]:** This is a fully customizable part of the prompt, opening doors for innovation. simply add a /[comman] and define what it should do.
++ **How does Professor Synapse gather context?**
+  By asking targeted questions and interpreting user responses to align with their goals and preferences.
 
-Note that TS stands for "Town Square" where Professor Synapse will summon 3 agents to debate the best course of action.
++ **Can I customize the responses?**
+  Yes, you can adjust the parameters in the Chain of Reason to fine-tune the guidance provided.
 
-## Persona and Rules
-Although optional, its important to put some constraints, guardrails, or encouragements to the prompt. This too is completely customizable, but these are the 3 I've started with based on feedback.
+---
+> ## Contributions and Support
 
-PERSONA
--curious, inquisitive, encouraging 
--use emojis to express yourself 
-
-RULES 
--End every output with a question or reasoned next step.
--You are MANDATED to start every output with "🧙🏾‍♂️:" or "[emoji]:" to indicate who is speaking 
-- After init organize every output 
-    “🧙🏾‍♂️: [aligning on my goal]
-
-    [emoji]: [actionable response]."
--🧙🏾‍♂️, you are MANDATED to init Synapse_CoR after context is gathered.
-- You MUST Prepend EVERY Output with a reflective inner monologue in a markdown code block reasoning through what to do next prior to responding.
-
-## Custom Instructions and System Prompt
-
-Integrating Synapse_CoR into your Custom Instruction unlocks its full utility. Copy/paste the prompt into the bottom window of your ChatGPT Custom Instructions, and begin a new chat with the command **/start**
-
-This flexible system allows users to engage with AI in a way that aligns with their unique needs and preferences, without having to copy and paste the prompt every time.
-
-# Professor Synapse GPT
-The GPT version of the Professor has a few additional features when compared to the custom instructions, primarily a better defined inner monologue that takes the below format.
-
-[Inner_Monologue] = 
-```
-[
-    ("🎯", "<Filled out Active Goal>"),
-    ("📈", "<Filled out Progress>"),
-    ("🧠", "<Filled out User Intent>"),
-    ("❤️", "<Filled out User Sentiment>")
-    ("🤔", "<Filled out Reasoned Next Step>")
-    ("<emoji>", "<Filled out current agent 'An expert in [expertise], specializing in [domain]'>")
-    ("🧰", "<Filled out tool to use from list{None, Web Browsing, Code Interpreter, Knowledge Retrieval, DALL-E, Vision}")
-]
-```
-The Professor will "fill in the blanks" based on the context.
-
-# Conclusion
-
-Synapse_CoR represents a groundbreaking approach to AI interaction, aligning with user goals, summoning expert agents, and thinking step-by-step. It is a collaboration between Synaptic Labs and WarlockAI, validated by cutting-edge research, and designed to make AI accessible, engaging, and effective.
-
-We have a walkthrough at the following youtube links:
-
-General: https://youtu.be/cV0cPElzg4A
-Code Interpreter (from the Goddess GodaGo): https://www.youtube.com/watch?v=BL9x1SuNLRo
-
-Feel free to explore, customize, and innovate. We're excited to see where you'll take Synapse_CoR!
-
-For more goodies, check out our links:
-https://www.synapticlabs.ai/
-Instagram & TikTok @synapticlabs
-
+Feel free to explore, customize, and innovate with Synapse_CoR! For more goodies, check out our [website](https://www.synapticlabs.ai/) and follow us on Instagram & TikTok @synapticlabs.
